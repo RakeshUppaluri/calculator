@@ -16,4 +16,7 @@ if ret:
     elif operation=="Multiplication":
         st.write(number1*number2)
     elif operation=="Division":
-        st.write(number1/number2)
+        if number2!=0:
+            st.write(number1/number2)
+        else:
+            st.write("division is not possible")
